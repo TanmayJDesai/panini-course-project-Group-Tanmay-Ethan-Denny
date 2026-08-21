@@ -1,0 +1,6 @@
+{
+  "mode": "hybrid",
+  "selected_on": "2wiki development",
+  "reranker_model": "Qwen/Qwen3-Reranker-8B",
+  "question_limit": null
+}

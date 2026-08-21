@@ -1,0 +1,111 @@
+{
+  "created_utc": "20260821T012634Z",
+  "final_notebook": {
+    "path": "/content/drive/MyDrive/Colab Notebooks/Panini_Course_Project_Q1_Q8_STAGE_B_FULL_FINAL.ipynb",
+    "bytes": 1316441,
+    "sha256": "d6d0582e3e7fb94ef0c9409d08bc6a61b8fd45d90f54e6d657950969b2a24524"
+  },
+  "q7_selection": {
+    "mode": "hybrid",
+    "selected_on": "2wiki development",
+    "reranker_model": "Qwen/Qwen3-Reranker-8B",
+    "question_limit": null
+  },
+  "artifacts": [
+    {
+      "relative_path": "config/q7_selected_mode.json",
+      "bytes": 132,
+      "sha256": "7d2105580d2fc8360c9eeecca920f0ddd3cb91e3380df12ed3636d7cf9db91d3"
+    },
+    {
+      "relative_path": "cache/2wiki/decompositions.jsonl",
+      "bytes": 96786,
+      "sha256": "d39a8a7b619232797d186d6ea6eceffc380c91790bb75b6b734ec336ba2ea703"
+    },
+    {
+      "relative_path": "cache/musique/decompositions.jsonl",
+      "bytes": 109656,
+      "sha256": "3dd15213cec42bcfad9276d3709a404bd173d2755c03077b841df5a23a31e94c"
+    },
+    {
+      "relative_path": "cache/2wiki/q7_reranker_scores.jsonl",
+      "bytes": 2937865,
+      "sha256": "809b5ae076e7074bc8ea9bc80d9d74bfc4a80af7ada020245ea1972e59850f98"
+    },
+    {
+      "relative_path": "cache/musique/q7_reranker_scores.jsonl",
+      "bytes": 3679977,
+      "sha256": "ec0225ddfe6630d5493fe882df255f23655d2a470fc4e1f2d99b07d68980f21b"
+    },
+    {
+      "relative_path": "cache/2wiki/ricr_traces.jsonl",
+      "bytes": 3881137,
+      "sha256": "085d5a9e102bce24b285b4544dce18c543a7d0dff6dcaacb733a0db21bf1d034"
+    },
+    {
+      "relative_path": "cache/musique/ricr_traces.jsonl",
+      "bytes": 5439043,
+      "sha256": "dd226dc94e39d1428db91db62995e8af727b6c6fe7f32594f04c434d1bbddf2f"
+    },
+    {
+      "relative_path": "retrieval/2wiki/q5_sparse_traces.jsonl",
+      "bytes": 6200176,
+      "sha256": "33c97dabe89fdc66dce99c392c7a0cf37d496160f3f74ee9cbf226a86368d0b5"
+    },
+    {
+      "relative_path": "retrieval/musique/q5_sparse_traces.jsonl",
+      "bytes": 6534122,
+      "sha256": "cde14c31a7bd0e60c114c4706c0825583a0ceebac8c093bba8a2e8dd98d30693"
+    },
+    {
+      "relative_path": "retrieval/2wiki/q6_top15_traces.jsonl",
+      "bytes": 3432213,
+      "sha256": "5a13d4d0b1f6f7fd482df8861e3b3f269637bd14814258f036d1d53c756b2482"
+    },
+    {
+      "relative_path": "retrieval/musique/q6_top15_traces.jsonl",
+      "bytes": 3619256,
+      "sha256": "c5517ea5e9e04c9fe646bf59a4c8b6457558469bdc6c80801de7719a2aae74c5"
+    },
+    {
+      "relative_path": "retrieval/2wiki/q7_fixed_pool_traces.jsonl",
+      "bytes": 3806760,
+      "sha256": "6901c243df27f63d94bc888a52500f352589efe67d9801594ad4df891b80ef48"
+    },
+    {
+      "relative_path": "retrieval/musique/q7_fixed_pool_traces.jsonl",
+      "bytes": 4043487,
+      "sha256": "4faca88b4ef49845170b4385a358e496d0e2ddaff4698aad578cee513db6914b"
+    },
+    {
+      "relative_path": "retrieval/2wiki/q6_dual_reranked_top15.jsonl",
+      "bytes": 1648685,
+      "sha256": "1fe5243fe0252b94a18ae06d9dff27845ea1f5e82259ede9357e4234037bc622"
+    },
+    {
+      "relative_path": "retrieval/musique/q6_dual_reranked_top15.jsonl",
+      "bytes": 1740133,
+      "sha256": "16cca4e894d9dac180fb510a9611c284d0229fb5ca08242d5f41eb4f3fa6500f"
+    },
+    {
+      "relative_path": "audits/q5_q7_manual_mapping_decisions.csv",
+      "bytes": 2536,
+      "sha256": "9f425bfd3ce3f81f2e1e7e0fb2b91ee579f1b60b96950e0bf7ed4e356d30a2d7"
+    },
+    {
+      "relative_path": "audits/q5_q7_manual_mapping_summary.json",
+      "bytes": 346,
+      "sha256": "acbd15be00103f03fa1f62b54724c3b798460601a1d20678f95db26ef544176f"
+    },
+    {
+      "relative_path": "student_code/ricr.py",
+      "bytes": 22395,
+      "sha256": "1b3b077e54f96914eb5907ee25745c94a3a2fdaa06a8e633eaeb7840f3782bdb"
+    },
+    {
+      "relative_path": "student_code/test_student_ricr.py",
+      "bytes": 3481,
+      "sha256": "ab5762a3d8684deff4ca3eb6b4be93138b79f145cdf09d631eecba10101acedd"
+    }
+  ]
+}

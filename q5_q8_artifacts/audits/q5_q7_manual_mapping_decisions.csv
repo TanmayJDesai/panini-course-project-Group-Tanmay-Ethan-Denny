@@ -1,0 +1,13 @@
+dataset,outer_question_id,step,query,gold_answer,decision,qa_uid,reason
+2wiki,df13ddf40bdd11eba7f7acde48001122,2,Sher Shah Suri >> place of birth,Sasaram,excluded_unmappable,,No local QA expresses Sher Shah Suri's birthplace. The only QA returning Sasaram identifies it as the Suri Empire's capital.
+2wiki,965e667e0bdd11eba7f7acde48001122,2,"Humphrey Sturt, 2nd Baron Alington >> date of birth",20 August 1859,manual_verified,doc_901::gsw_901_0.json::v1::q1,"Humphrey Sturt, 2nd Baron Alington is represented as Humphrey Napier Sturt; this QA directly returns 20 August 1859."
+2wiki,169c31500bb011ebab90acde48001122,2,Rukn al-Dawla >> father,Buya,manual_verified,doc_4268::gsw_4268_0.json::v5::q10,Rukn al-Dawla is Hasan's laqab; this QA asks for Hasan's father and directly returns Buya.
+2wiki,896795760bb011ebab90acde48001122,1,Tlilpotoncatzin >> father,Tlacaelel,manual_verified,doc_2584::gsw_2584_0.json::v3::q6,Tlilpotoncatzin/Tlilpotonqui is the same local person; this QA returns the parents Tlacaelel and Maquiztzin.
+2wiki,e53937d00bae11ebab90acde48001122,2,"Robert Petre, 7th Baron Petre >> mother",Mary Clifton,excluded_unmappable,,No local QA expresses Robert Petre's mother. The only QA returning Mary Clifton asks who Sir Thomas Clifton's daughter was.
+musique,2hop__40485_40502,2,What was the population of Dutch Republic before this emigration?,2 million,excluded_unmappable,,No QA in the supplied gold document returns the population 2 million.
+musique,2hop__40485_40501,2,How many refugees emigrated to Dutch Republic ?,"75,000 to 100,000",excluded_unmappable,,"No QA in the supplied gold document returns the refugee count 75,000 to 100,000."
+musique,2hop__88372_83837,1,who sings you can crash my party anytime,Luke Bryan,excluded_unmappable,,No QA in the supplied gold document returns Luke Bryan as performer.
+musique,2hop__622637_120171,1,Starship Command >> publisher,Acornsoft,excluded_unmappable,,No QA in the supplied gold document returns Acornsoft as publisher.
+musique,3hop1__389761_567566_84283,1,Another Page >> performer,Christopher Cross,excluded_unmappable,,No QA in the supplied gold document returns Christopher Cross as Another Page's performer.
+musique,3hop1__465684_160545_60577,1,Bodindecha >> place of birth,Bangkok,excluded_unmappable,,No QA in the supplied gold document returns Bangkok as birthplace.
+musique,4hop1__813171_153080_159767_81096,1,Changes Two >> performer,Charles Mingus,excluded_unmappable,,No QA in the supplied gold document returns Charles Mingus as performer.
