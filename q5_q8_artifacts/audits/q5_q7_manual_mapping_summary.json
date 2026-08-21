@@ -1,0 +1,17 @@
+{
+  "question_limit": null,
+  "tasks_before_audit": 423,
+  "all_tasks_after_audit": 423,
+  "qa_evaluable_tasks": 414,
+  "excluded_unmappable": 9,
+  "manual_overrides_applied": 3,
+  "remaining_low_confidence": 0,
+  "all_by_dataset": {
+    "2wiki": 207,
+    "musique": 216
+  },
+  "evaluable_by_dataset": {
+    "2wiki": 205,
+    "musique": 209
+  }
+}
