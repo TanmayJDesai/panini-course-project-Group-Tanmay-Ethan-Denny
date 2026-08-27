@@ -1,5 +1,7 @@
 # RUNME
 
+https://github.com/TanmayJDesai/panini-course-project-Group-Tanmay-Ethan-Denny
+
 ## Starting
  - First, we would run a git clone : git clone -b main https://github.com/TanmayJDesai/panini-course-project-Group-Tanmay-Ethan-Denny.git /content/panini-course-project
  - Open the Panini_Course_Project.ipynb in google colab (File --> Upload Notebook --> Find the Panini_Course_Project.ipynb)
@@ -20,7 +22,7 @@
  - Finally with everything set to false in the config tab and question limit on none, run the question 12 cells to use the previously made and cached jsonl files to materialize and get the four submission files and environments.txt
 
 ## Seeds
-In question 3, when we do sampling, it uses the seed=232. That is the only seed needed. 
+In question 2-3 and 5-8, we use the seed=232. That is the only seed needed. 
 
 
 ## Expected runtime (As I mentioned I did it on A100 gpu, but these times will vary by GPU and cace state)
