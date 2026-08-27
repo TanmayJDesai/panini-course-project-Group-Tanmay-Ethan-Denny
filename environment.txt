@@ -1,0 +1,29 @@
+python: 3.13.15 (main, Aug  6 2026, 11:06:23) [GCC 11.4.0]
+platform: Linux-6.6.122+-x86_64-with-glibc2.35
+torch: 2.11.0+cu128
+cuda available: True
+cuda version: 12.8
+gpu: NVIDIA A100-SXM4-40GB
+
+key package versions:
+  transformers: 5.15.0
+  accelerate: 1.14.0
+  bitsandbytes: 0.50.1
+  scikit-learn: 1.6.1
+  faiss-cpu: 1.15.0
+  rank-bm25: 0.2.2
+  pandas: 2.2.3
+  numpy: 2.1.3
+
+frozen configuration (selected using 2wiki dev data only, question 9):
+  beam_width: 5
+  candidates_per_hop: 15
+  retrieval_pool: 60
+  rrf_constant: 60.0
+  multi_parent_threshold: 0.3
+  retrieval_backend: dual_hybrid
+
+model identifiers (from models/model_config.json):
+  decomposer: yigitturali/GSW-QA-Decomposer-Qwen3-4B
+  reranker: Qwen/Qwen3-Reranker-8B
+  answer_model: Qwen/Qwen3-4B
