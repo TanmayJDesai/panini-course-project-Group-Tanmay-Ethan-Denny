@@ -31,3 +31,6 @@ In question 3, when we do sampling, it uses the seed=232. That is the only seed 
 
 ## Restart points
 The jsonl files I mentioned above are all checkpoints all cached and every stage checkpoints to these jsonl by question id after each of the questions finish. So, if you do need to reconnect (happened twice for me), it will just skip the completed question IDs and not rerun them.
+
+## Final commit
+fb03e3930660e8873cb59fcc688675179f936816
